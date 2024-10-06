@@ -18,7 +18,7 @@ const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
-let dohURL = 'https://sky.rethinkdns.com/dns-query';
+let dohURL = 'https://4arbug92l7.cloudflare-gateway.com/dns-query';
 
 let panelVersion = 'v2.5';
 
