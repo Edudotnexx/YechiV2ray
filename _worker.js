@@ -4092,7 +4092,7 @@ var SignJWT = class extends ProduceJWT {
 
 // src/worker.js
 // To generate your own UUID: https://www.uuidgenerator.net/
-var userID = "c6d299d4-db0b-4444-8b56-b23bbdcbcd67";
+var userID = '40168c82-d975-4cdb-867b-59d5e8f42f26';
 var trojanPassword = `REvil`;//Your preferred password for trojan configurations.
 
 //Find proxyIP : https://github.com/NiREvil/vless/blob/main/sub/ProxyIP.md
@@ -4101,7 +4101,7 @@ var proxyIPs = ["nima.nscl.ir"]; // OR use ['bpb.radically.pro', 'turk.radicaliz
 var defaultHttpPorts = ["80", "8080", "2052", "2082", "2086", "2095", "8880"];
 var defaultHttpsPorts = ["443", "8443", "2053", "2083", "2087", "2096"];
 var proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
-var dohURL = "https://cloudflare-dns.com/dns-query";
+var dohURL = 'https://4arbug92l7.cloudflare-gateway.com/dns-query';
 var hashPassword;
 var panelVersion = "V2.7";
 var worker_default = {
@@ -4338,7 +4338,7 @@ var worker_default = {
               }
             });
           default:
-            url.hostname = "www.speedtest.net";
+            url.hostname = 'Parspack.com';
             url.protocol = "https:";
             request = new Request(url, request);
             return await fetch(request);
